@@ -1,0 +1,10 @@
+*.pyc
+*~
+*.db
+
+
+sound.py
+settings.py
+b-env/
+local_settings.py
+extrabits/
