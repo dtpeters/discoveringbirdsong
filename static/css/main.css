@@ -93,9 +93,20 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+.header {}
 
+#header-para {
+    position:relative;
+    top:20px;
+    left:20px;
+    border:2px solid;
+    padding:5px;
+    font-size:1em;
+}
 
-
+a:focus { 
+    color:green;
+}
 
 
 
