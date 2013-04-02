@@ -8,6 +8,13 @@ class Recording(models.Model):
     genus = models.CharField(max_length=200)
 
 
-class Rating(models.Model):
-    recording = models.ForeignKey('Recording')
+
+    def __unicode__(self):
+        return self.genus + " " + self.sp 
+
+
+    
+
+
+
     
